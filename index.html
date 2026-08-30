@@ -165,6 +165,9 @@
 
             <!-- Action & Mobile Toggle -->
             <div class="flex items-center space-x-3">
+                <a href="Vinita_Kashyap_CV.pdf" target="_blank" download="Vinita_Kashyap_CV.pdf" class="hidden sm:inline-flex items-center px-3.5 py-2 bg-gray-800 hover:bg-gray-700 text-pink-300 hover:text-pink-200 rounded-full text-xs font-semibold tracking-wider transition border border-pink-500/30 shadow-sm shadow-pink-500/20" title="Download Official CV">
+                    <i class="fa-solid fa-file-pdf mr-1.5 text-pink-400"></i> CV
+                </a>
                 <a href="https://github.com/vinita-afk" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-full text-xs font-semibold tracking-wider transition border border-gray-700">
                     <i class="fa-brands fa-github mr-2 text-purple-400"></i> @vinita-afk
                 </a>
@@ -187,6 +190,9 @@
             <a href="#domain" class="block py-2 text-gray-300 hover:text-cyan-400 font-medium mobile-link">Domain & Deployment</a>
             <a href="#achievements" class="block py-2 text-gray-300 hover:text-cyan-400 font-medium mobile-link">Achievements</a>
             <div class="pt-2 flex flex-col gap-2">
+                <a href="Vinita_Kashyap_CV.pdf" target="_blank" download="Vinita_Kashyap_CV.pdf" class="block text-center py-2.5 bg-gray-800 hover:bg-gray-700 text-pink-300 rounded-lg font-semibold text-sm border border-pink-500/30">
+                    <i class="fa-solid fa-file-pdf mr-2"></i> Download CV (PDF)
+                </a>
                 <a href="https://github.com/vinita-afk" target="_blank" rel="noopener noreferrer" class="block text-center py-2.5 bg-gray-800 text-white rounded-lg font-semibold text-sm border border-gray-700">
                     <i class="fa-brands fa-github mr-2"></i> GitHub @vinita-afk
                 </a>
@@ -219,15 +225,19 @@
                 </p>
 
                 <div class="flex flex-wrap gap-4 items-center">
+                    <a href="Vinita_Kashyap_CV.pdf" target="_blank" download="Vinita_Kashyap_CV.pdf" class="px-6 py-3.5 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold rounded-xl transition-all duration-300 shadow-lg shadow-purple-500/25 flex items-center group">
+                        <i class="fa-solid fa-file-pdf mr-2 text-lg text-pink-200 group-hover:scale-110 transition-transform"></i>
+                        <span>Download CV</span>
+                    </a>
                     <a href="#projects" class="px-6 py-3.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-gray-950 font-bold rounded-xl transition-all duration-300 shadow-lg shadow-cyan-500/25 flex items-center">
-                        <i class="fa-solid fa-code-branch mr-2"></i> View My Work
+                        <i class="fa-solid fa-code-branch mr-2"></i> View Work
                     </a>
-                    <a href="https://github.com/vinita-afk" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 bg-gray-800/90 hover:bg-gray-700 text-white font-medium rounded-xl transition border border-purple-500/40 hover:border-purple-400 shadow-lg shadow-purple-500/15 flex items-center group">
+                    <a href="https://github.com/vinita-afk" target="_blank" rel="noopener noreferrer" class="px-5 py-3.5 bg-gray-800/90 hover:bg-gray-700 text-white font-medium rounded-xl transition border border-purple-500/40 hover:border-purple-400 shadow-lg shadow-purple-500/15 flex items-center group">
                         <i class="fa-brands fa-github mr-2 text-purple-400 group-hover:scale-110 transition-transform"></i>
-                        <span>Explore GitHub</span>
+                        <span>GitHub</span>
                     </a>
-                    <button onclick="copyEmail()" id="copyEmailBtn" class="px-5 py-3.5 glass-card hover:bg-gray-800/90 text-gray-300 hover:text-white font-medium rounded-xl transition border border-gray-700/80 flex items-center group" title="Click to copy email">
-                        <i class="fa-solid fa-copy mr-2 text-cyan-400 group-hover:scale-110 transition-transform"></i>
+                    <button onclick="copyEmail()" id="copyEmailBtn" class="px-4 py-3.5 glass-card hover:bg-gray-800/90 text-gray-300 hover:text-white font-medium rounded-xl transition border border-gray-700/80 flex items-center group" title="Click to copy email">
+                        <i class="fa-solid fa-copy mr-1.5 text-cyan-400 group-hover:scale-110 transition-transform"></i>
                         <span id="emailText" class="text-xs sm:text-sm">Copy Email</span>
                     </button>
                 </div>
@@ -243,45 +253,67 @@
                     <a href="mailto:kashyapvinita17@gmail.com" class="text-gray-400 hover:text-cyan-400 transition transform hover:-translate-y-1 text-2xl" title="Email: kashyapvinita17@gmail.com">
                         <i class="fa-solid fa-envelope"></i>
                     </a>
+                    <a href="Vinita_Kashyap_CV.pdf" target="_blank" download="Vinita_Kashyap_CV.pdf" class="text-gray-400 hover:text-pink-400 transition transform hover:-translate-y-1 text-2xl" title="View Full CV">
+                        <i class="fa-solid fa-file-lines"></i>
+                    </a>
                 </div>
             </div>
 
-            <!-- Hero Interactive Card / Visual -->
-            <div class="md:col-span-5 flex justify-center">
+            <!-- Hero Interactive Card / Profile Photo Frame -->
+            <div class="md:col-span-5 flex flex-col items-center">
                 <div class="relative w-full max-w-sm">
-                    <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-purple-600 to-cyan-500 opacity-30 blur-xl animate-pulse-slow"></div>
-                    <div class="relative glass-card p-6 sm:p-8 rounded-2xl border border-gray-700/60 shadow-2xl">
-                        <!-- Code Card Header -->
-                        <div class="flex items-center justify-between border-b border-gray-800 pb-4 mb-4">
-                            <div class="flex space-x-2">
-                                <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
-                                <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
-                                <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
+                    <div class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-purple-600 via-pink-500 to-cyan-500 opacity-35 blur-xl animate-pulse-slow"></div>
+                    
+                    <!-- Main Profile & Code Card -->
+                    <div class="relative glass-card p-6 rounded-3xl border border-gray-700/70 shadow-2xl overflow-hidden">
+                        
+                        <!-- Profile Image Section -->
+                        <div class="flex items-center space-x-4 mb-5 pb-5 border-b border-gray-800">
+                            <div class="relative group flex-shrink-0">
+                                <img src="profile.png" alt="Vinita Kashyap Portrait" class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl object-cover object-top border-2 border-purple-500/60 shadow-xl group-hover:scale-105 transition-transform duration-300">
+                                <div class="absolute -bottom-1 -right-1 w-5 h-5 bg-emerald-500 rounded-full border-2 border-gray-900 flex items-center justify-center text-[10px] text-white" title="Available for Work">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
                             </div>
-                            <span class="text-xs text-gray-400 code-font">developer.py</span>
+                            <div class="flex-1 min-w-0">
+                                <h3 class="text-lg font-bold text-white truncate">Vinita Kashyap</h3>
+                                <p class="text-xs text-purple-400 font-medium truncate">AI & Full-Stack Developer</p>
+                                <p class="text-[11px] text-gray-400 mt-1 flex items-center truncate">
+                                    <i class="fa-solid fa-university text-cyan-400 text-[10px] mr-1.5"></i> LPU • B.Tech CSE
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Code Card Header -->
+                        <div class="flex items-center justify-between border-b border-gray-800/80 pb-3 mb-3">
+                            <div class="flex space-x-1.5">
+                                <div class="w-2.5 h-2.5 rounded-full bg-red-500/80"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-yellow-500/80"></div>
+                                <div class="w-2.5 h-2.5 rounded-full bg-green-500/80"></div>
+                            </div>
+                            <span class="text-[11px] text-gray-400 code-font">developer.py</span>
                         </div>
                         
                         <!-- Code lines simulation -->
-                        <div class="space-y-2 text-xs sm:text-sm code-font">
+                        <div class="space-y-1.5 text-xs code-font">
                             <p class="text-purple-400"><span class="text-pink-400">class</span> <span class="text-cyan-300">VinitaKashyap</span>:</p>
-                            <p class="text-gray-400 pl-4"><span class="text-pink-400">def</span> <span class="text-yellow-300">__init__</span>(self):</p>
-                            <p class="text-gray-300 pl-8">self.role = <span class="text-green-300">"AI & Full-Stack Dev"</span></p>
-                            <p class="text-gray-300 pl-8">self.github = <span class="text-purple-300">"@vinita-afk"</span></p>
-                            <p class="text-gray-300 pl-8">self.location = <span class="text-green-300">"Punjab, India"</span></p>
-                            <p class="text-gray-300 pl-8">self.passions = [<span class="text-green-300">"AI"</span>, <span class="text-green-300">"IoT"</span>, <span class="text-green-300">"Web"</span>]</p>
-                            <p class="text-gray-400 pl-4 mt-2"><span class="text-pink-400">def</span> <span class="text-yellow-300">solve_problems</span>(self):</p>
-                            <p class="text-gray-300 pl-8"><span class="text-purple-400">return</span> <span class="text-green-300">"Impactful Innovation 🚀"</span></p>
+                            <p class="text-gray-400 pl-3"><span class="text-pink-400">def</span> <span class="text-yellow-300">__init__</span>(self):</p>
+                            <p class="text-gray-300 pl-6">self.role = <span class="text-green-300">"AI & Full-Stack"</span></p>
+                            <p class="text-gray-300 pl-6">self.github = <span class="text-purple-300">"@vinita-afk"</span></p>
+                            <p class="text-gray-300 pl-6">self.gpa = <span class="text-cyan-300">"93% (Sci)"</span></p>
+                            <p class="text-gray-400 pl-3 mt-1"><span class="text-pink-400">def</span> <span class="text-yellow-300">solve_problems</span>(self):</p>
+                            <p class="text-gray-300 pl-6"><span class="text-purple-400">return</span> <span class="text-green-300">"Impactful Innovation 🚀"</span></p>
                         </div>
 
                         <!-- Stats Highlights -->
-                        <div class="mt-6 pt-5 border-t border-gray-800 grid grid-cols-2 gap-4 text-center">
-                            <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-700/40">
-                                <span class="text-xl font-bold text-cyan-400" id="heroReposCount">Loading...</span>
-                                <p class="text-[11px] text-gray-400 uppercase tracking-wider">GitHub Repos</p>
+                        <div class="mt-5 pt-4 border-t border-gray-800 grid grid-cols-2 gap-3 text-center">
+                            <div class="bg-gray-800/40 p-2.5 rounded-xl border border-gray-700/40">
+                                <span class="text-lg font-bold text-cyan-400" id="heroReposCount">Loading...</span>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider">GitHub Repos</p>
                             </div>
-                            <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-700/40">
-                                <span class="text-xl font-bold text-purple-400">4+</span>
-                                <p class="text-[11px] text-gray-400 uppercase tracking-wider">Spoken Languages</p>
+                            <div class="bg-gray-800/40 p-2.5 rounded-xl border border-gray-700/40">
+                                <span class="text-lg font-bold text-purple-400">4+</span>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider">Spoken Languages</p>
                             </div>
                         </div>
                     </div>
@@ -318,7 +350,7 @@
                 <div class="grid md:grid-cols-12 gap-8 items-center">
                     <div class="md:col-span-3 flex flex-col items-center text-center">
                         <div class="relative group mb-3">
-                            <img id="githubAvatar" src="https://avatars.githubusercontent.com/u/161407630?v=4" alt="Vinita Kashyap Avatar" class="w-24 h-24 rounded-full border-2 border-purple-500/60 p-1 bg-gray-800 object-cover shadow-xl">
+                            <img id="githubAvatar" src="profile.png" alt="Vinita Kashyap Avatar" class="w-24 h-24 rounded-full border-2 border-purple-500/60 p-1 bg-gray-800 object-cover object-top shadow-xl">
                             <div class="absolute inset-0 rounded-full bg-purple-500/20 blur opacity-0 group-hover:opacity-100 transition"></div>
                         </div>
                         <h4 id="githubName" class="text-lg font-bold text-white">Vinita Kashyap</h4>
@@ -333,10 +365,10 @@
                         </p>
                         <div class="flex flex-wrap gap-2 justify-center md:justify-start pt-1">
                             <span class="px-2.5 py-1 rounded-md bg-gray-800/80 text-gray-300 text-xs font-mono border border-gray-700">
-                                <i class="fa-solid fa-location-dot text-cyan-400 mr-1"></i> <span id="githubLocation">India</span>
+                                <i class="fa-solid fa-location-dot text-cyan-400 mr-1"></i> <span id="githubLocation">Jalandhar, Punjab</span>
                             </span>
                             <span class="px-2.5 py-1 rounded-md bg-gray-800/80 text-gray-300 text-xs font-mono border border-gray-700">
-                                <i class="fa-solid fa-code text-purple-400 mr-1"></i> Python, JS, C++, Java
+                                <i class="fa-solid fa-code text-purple-400 mr-1"></i> Python, Java, C++, JS
                             </span>
                         </div>
                     </div>
@@ -402,7 +434,7 @@
                     <h3 class="text-3xl font-bold text-white tracking-wide flex items-center gap-3">
                         <i class="fa-solid fa-globe text-cyan-400"></i> Domain & Global Access
                     </h3>
-                    <p class="text-xs text-gray-400 mt-1">How this portfolio is configured for 24/7 global accessibility</p>
+                    <p class="text-xs text-gray-400 mt-1">Configured for 24/7 global accessibility</p>
                 </div>
             </div>
 
@@ -410,7 +442,7 @@
                 <!-- GitHub Pages Option -->
                 <div class="glass-card glass-card-hover p-6 rounded-2xl border border-cyan-500/30 flex flex-col justify-between relative overflow-hidden">
                     <div class="absolute top-0 right-0 px-3 py-1 bg-cyan-500/20 text-cyan-300 text-[10px] font-mono rounded-bl-xl uppercase font-bold border-b border-l border-cyan-500/30">
-                        Active Free Host
+                        Active Live Domain
                     </div>
                     <div>
                         <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-2xl mb-4 border border-cyan-500/20">
@@ -421,14 +453,14 @@
                             Zero-cost automatic hosting connected directly to your GitHub repository with free SSL/HTTPS certificates.
                         </p>
                         <div class="bg-gray-900/80 p-3 rounded-xl border border-gray-800 mb-4">
-                            <span class="text-[11px] text-gray-500 uppercase font-mono block mb-1">Target Live URL:</span>
-                            <a href="https://vinita-afk.github.io/HTMLjavapractices/" target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-cyan-400 hover:underline break-all flex items-center gap-1">
-                                vinita-afk.github.io/HTMLjavapractices/ <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                            <span class="text-[11px] text-gray-500 uppercase font-mono block mb-1">Live Custom Domain:</span>
+                            <a href="https://vinita-afk.github.io" target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-cyan-400 hover:underline break-all flex items-center gap-1 font-bold">
+                                https://vinita-afk.github.io <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
                             </a>
                         </div>
                     </div>
                     <div class="text-xs text-gray-400 pt-3 border-t border-gray-800 flex items-center justify-between">
-                        <span>Status: Ready to Push</span>
+                        <span>Status: Live Online</span>
                         <span class="text-cyan-400 font-semibold">100% Free</span>
                     </div>
                 </div>
@@ -508,6 +540,12 @@
                         <span class="inline-flex items-center px-3 py-1.5 rounded-lg bg-blue-950/40 text-blue-300 border border-blue-800/50 text-xs font-medium">
                             <i class="fa-solid fa-check mr-1.5 text-blue-400"></i> Community Leadership
                         </span>
+                    </div>
+
+                    <div class="pt-3">
+                        <a href="Vinita_Kashyap_CV.pdf" target="_blank" download="Vinita_Kashyap_CV.pdf" class="inline-flex items-center px-5 py-2.5 bg-purple-900/60 hover:bg-purple-800/80 text-purple-200 rounded-xl text-xs font-semibold border border-purple-600/40 transition">
+                            <i class="fa-solid fa-file-pdf mr-2 text-pink-400"></i> Download Full Resume (PDF)
+                        </a>
                     </div>
                 </div>
 
@@ -875,9 +913,9 @@
 
                     <div class="relative group">
                         <div class="absolute w-4 h-4 bg-emerald-400 rounded-full -left-[33px] top-1 shadow-[0_0_12px_#34d399] group-hover:scale-125 transition-transform"></div>
-                        <h5 class="text-lg font-bold text-white group-hover:text-emerald-300 transition">Education & Skill Empowerment</h5>
+                        <h5 class="text-lg font-bold text-white group-hover:text-emerald-300 transition">Teaching & Women's Empowerment</h5>
                         <p class="text-purple-400 text-sm mb-1.5 font-medium">Outreach & Mentorship</p>
-                        <p class="text-gray-400 text-sm leading-relaxed">Conducted interactive coding workshops for underprivileged students and actively supported grassroots initiatives to empower women through education and digital literacy.</p>
+                        <p class="text-gray-400 text-sm leading-relaxed">Conducted coding workshops for underprivileged students, organized blood donation drives, and led initiatives to empower women through education and digital skills.</p>
                     </div>
                 </div>
             </div>
@@ -890,37 +928,48 @@
                 </div>
 
                 <div class="space-y-4">
-                    <div class="glass-card glass-card-hover p-5 rounded-2xl flex items-center border border-gray-700/60">
+                    <div class="glass-card glass-card-hover p-4 sm:p-5 rounded-2xl flex items-center border border-gray-700/60">
                         <div class="w-12 h-12 rounded-xl bg-[#0077b5]/15 text-[#0077b5] flex items-center justify-center text-2xl mr-4 border border-[#0077b5]/30">
                             <i class="fa-brands fa-linkedin"></i>
                         </div>
                         <div class="flex-1">
-                            <h6 class="font-bold text-gray-100 text-base">AI and Machine Learning</h6>
+                            <h6 class="font-bold text-gray-100 text-sm sm:text-base">AI and Machine Learning</h6>
                             <p class="text-xs text-gray-400 mt-0.5">LinkedIn Learning • Issued 2025</p>
                         </div>
                         <i class="fa-solid fa-certificate text-purple-400 text-sm"></i>
                     </div>
 
-                    <div class="glass-card glass-card-hover p-5 rounded-2xl flex items-center border border-gray-700/60">
+                    <div class="glass-card glass-card-hover p-4 sm:p-5 rounded-2xl flex items-center border border-gray-700/60">
                         <div class="w-12 h-12 rounded-xl bg-[#0077b5]/15 text-[#0077b5] flex items-center justify-center text-2xl mr-4 border border-[#0077b5]/30">
                             <i class="fa-brands fa-linkedin"></i>
                         </div>
                         <div class="flex-1">
-                            <h6 class="font-bold text-gray-100 text-base">Full Stack Development</h6>
+                            <h6 class="font-bold text-gray-100 text-sm sm:text-base">Full Stack Development</h6>
                             <p class="text-xs text-gray-400 mt-0.5">LinkedIn Learning • Issued 2026</p>
                         </div>
                         <i class="fa-solid fa-certificate text-purple-400 text-sm"></i>
                     </div>
 
-                    <div class="glass-card glass-card-hover p-5 rounded-2xl flex items-center border border-gray-700/60">
+                    <div class="glass-card glass-card-hover p-4 sm:p-5 rounded-2xl flex items-center border border-gray-700/60">
                         <div class="w-12 h-12 rounded-xl bg-[#0077b5]/15 text-[#0077b5] flex items-center justify-center text-2xl mr-4 border border-[#0077b5]/30">
                             <i class="fa-brands fa-linkedin"></i>
                         </div>
                         <div class="flex-1">
-                            <h6 class="font-bold text-gray-100 text-base">Introduction to Data Science</h6>
+                            <h6 class="font-bold text-gray-100 text-sm sm:text-base">Introduction to Data Science</h6>
                             <p class="text-xs text-gray-400 mt-0.5">LinkedIn Learning • Issued 2025</p>
                         </div>
                         <i class="fa-solid fa-certificate text-purple-400 text-sm"></i>
+                    </div>
+
+                    <div class="glass-card glass-card-hover p-4 sm:p-5 rounded-2xl flex items-center border border-gray-700/60">
+                        <div class="w-12 h-12 rounded-xl bg-purple-500/15 text-purple-400 flex items-center justify-center text-2xl mr-4 border border-purple-500/30">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h6 class="font-bold text-gray-100 text-sm sm:text-base">Mental Wellness & Leadership</h6>
+                            <p class="text-xs text-gray-400 mt-0.5">LinkedIn Learning • Issued 2025</p>
+                        </div>
+                        <i class="fa-solid fa-certificate text-pink-400 text-sm"></i>
                     </div>
                 </div>
             </div>
@@ -947,6 +996,9 @@
                 </a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="w-12 h-12 rounded-full bg-gray-900 hover:bg-[#0077b5]/20 text-gray-400 hover:text-[#0077b5] transition flex items-center justify-center text-xl border border-gray-800 hover:border-[#0077b5]/50" title="LinkedIn">
                     <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="Vinita_Kashyap_CV.pdf" target="_blank" download="Vinita_Kashyap_CV.pdf" class="w-12 h-12 rounded-full bg-gray-900 hover:bg-pink-500/20 text-gray-400 hover:text-pink-400 transition flex items-center justify-center text-xl border border-gray-800 hover:border-pink-500/50" title="Download CV">
+                    <i class="fa-solid fa-file-pdf"></i>
                 </a>
             </div>
 
@@ -1039,7 +1091,6 @@
                 const userRes = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}`);
                 if (userRes.ok) {
                     const user = await userRes.json();
-                    if (user.avatar_url) document.getElementById('githubAvatar').src = user.avatar_url;
                     if (user.name) document.getElementById('githubName').textContent = user.name;
                     if (user.bio) document.getElementById('githubBio').textContent = user.bio;
                     if (user.location) document.getElementById('githubLocation').textContent = user.location;
@@ -1118,10 +1169,18 @@
         function renderFallbackRepos() {
             const fallbackRepos = [
                 {
+                    name: 'vinita-afk.github.io',
+                    html_url: 'https://github.com/vinita-afk/vinita-afk.github.io',
+                    description: 'Modern glassmorphic portfolio website dynamically integrated with GitHub API, deployed on GitHub Pages with a custom domain.',
+                    language: 'JavaScript',
+                    stargazers_count: 1,
+                    forks_count: 0
+                },
+                {
                     name: 'HTMLjavapractices',
                     html_url: 'https://github.com/vinita-afk/HTMLjavapractices',
                     description: 'Comprehensive repository covering modern web development, algorithms, Java OOP architectures, and responsive interface implementations.',
-                    language: 'JavaScript',
+                    language: 'HTML',
                     stargazers_count: 1,
                     forks_count: 0
                 },
@@ -1143,8 +1202,8 @@
                 }
             ];
             
-            document.getElementById('githubRepos').textContent = '3+';
-            document.getElementById('heroReposCount').textContent = '3+';
+            document.getElementById('githubRepos').textContent = '4+';
+            document.getElementById('heroReposCount').textContent = '4+';
             document.getElementById('githubFollowers').textContent = '10+';
             document.getElementById('githubFollowing').textContent = '15+';
             
